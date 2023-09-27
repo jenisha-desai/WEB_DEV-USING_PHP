@@ -1,0 +1,13 @@
+<?php
+$value1=24;
+$value2=64;
+$temp;
+echo$value1;
+echo$value2;
+$temp=$value1;
+$temp=$value2;
+$value1=$value2;
+$value2=$temp;
+echo$value1;
+echo$value2;
+?>
